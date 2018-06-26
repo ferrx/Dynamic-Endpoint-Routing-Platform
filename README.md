@@ -1,2 +1,2 @@
-# Dynamic-Endpoint-Routing-Service
+# Dynamic Endpoint Routing Platform
 DERP
