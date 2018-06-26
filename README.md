@@ -1,6 +1,7 @@
 # Dynamic Endpoint Routing Platform
 ## DERP
 `derp` is a platform for quickly provisioning serverless endpoints as a service for use within a centralized application. The `derp` platform handles everything from website registry, serverless function code management, and endpoint routing integration.
+`derp` can be used via the `derp` CLI or the `derp` console on the web.
 
 ### Pre-requisites
 - If using AWS: AWS CLI installed on your OS with access to your AWS environment
@@ -32,3 +33,4 @@ $ Application available at http://localhost:8080 including 2 endpoints.
 $ derp deploy getUsers
 $ getUsers endpoint has been deployed to your application at http://example.com/getUsers
 ```
+Alternatively, you can use the `derp` console on the web to make code changes to your endpoint and deploy them.
