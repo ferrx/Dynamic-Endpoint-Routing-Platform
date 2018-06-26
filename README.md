@@ -13,6 +13,7 @@
 Use the derp CLI to automate your local `derp` environment, including pipelines and environments for testing, release, etc.
 Calling `derp` in your terminal will read your `.derp` configuration file and deploy your envronment.
 If the `.derp` configuration file is not detected, a wizard will guide your through defining the file prior to deployment. This step will use `derp` to push the `.derp` configuration file to your `derp`.
+This initial call to `derp` will also generate your application's root endpoint aka "/" with an `index.js` file located within your `derp` application's top folder.
 ```
 $ derp
 ```
