@@ -8,7 +8,7 @@
 - NodeJS
 
 ### Installation
-- npm -g i derp-cli
+- npm i -g derp-cli
 
 ### Usage
 Use the `derp` CLI to automate your local `derp` environment, including pipelines and environments for testing, release, and more.
